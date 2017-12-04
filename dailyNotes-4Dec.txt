@@ -5,3 +5,9 @@
 验，总之好多问题。
 
 所以找问题也就比较没有头绪。
+
+git credential-manager uninstall // 可以释放出来username 与 password
+//Remove credentials from Git
+//https://stackoverflow.com/questions/15381198/remove-credentials-from-git
+git rm filename
+// 可以直接删掉这个文件
