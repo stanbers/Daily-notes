@@ -1,0 +1,5 @@
+不知道如何测试一个应用程序，比如像.exe的程序，之前一直做web自动化测试。一直在思考这个问题
+Joseph gor 给了一个参考地址：https://blog.testproject.io/2016/12/22/open-source-test-automation-tools-for-desktop-applications/
+里面提到了AutoIT,然后在CSDN上面有些文章：http://blog.csdn.net/tester_001/article/details/72547776?locationNum=2&fps=1
+对于Winium，它提到说如果用过Selenium，可能会更好的适应，它的github地址：https://github.com/2gis/Winium
+但是如果对于小的项目来说，做一个自动化框架意义大不大呢？
