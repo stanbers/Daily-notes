@@ -18,3 +18,10 @@ C:\Program Files\Apache-tomcat-7.0.69\
 明日安排：
 1.如何截图
 2.如何断言，再接着封装。
+
+可能有用的链接：
+https://mvnrepository.com/search?q=pageObjects+selenium
+https://stackoverflow.com/questions/41672961/taking-a-screen-shot-using-selenium
+https://stackoverflow.com/questions/34202643/how-to-use-assert-in-selenium-webdriver
+https://blogs.perficient.com/delivery/blog/2017/01/11/assertions-in-selenium-web-driver/
+http://toolsqa.com/selenium-webdriver/data-driven-testing-excel-poi/
