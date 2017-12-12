@@ -32,3 +32,6 @@ split(Pattern.quote("."))
 http://www.testclass.net/junit/runing/
 
 git@github.com:stanbers/Lituo-Daily-notes.git
+
+http://www.oracle.com/technetwork/articles/java/javareflection-1536171.html
+https://poi.apache.org/apidocs/
