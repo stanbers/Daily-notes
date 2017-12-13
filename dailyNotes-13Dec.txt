@@ -1,0 +1,10 @@
+cssSelector的用法：
+https://www.w3schools.com/cssref/css_selectors.asp
+
+selenium learning:
+http://toolsqa.com/selenium-webdriver/test-case-with-log4j/
+
+selenium reference:
+http://www.cnblogs.com/tobecrazy/p/4557592.html
+
+在IDEA中设置自动生成的注释不成功，是什么原因呢？
