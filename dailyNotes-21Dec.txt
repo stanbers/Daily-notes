@@ -1,2 +1,6 @@
 //input[@id='essid']/following-sibling::input[1]  //--> 不OK
 //div[@id='warning-dlg']/following-sibling::div[1]/div[3]/div[1]/button[2]
+
+河南电大 《护理科研方法》：http://m.360docs.net/doc/info-1855dacb700abb68a982fb8a.html
+《护理管理学》 ：https://wenku.baidu.com/view/d1845a9632d4b14e852458fb770bf78a65293a01.html?mark_pay_doc=1&mark_rec_page=1&mark_rec_position=2&clear_uda_param=1
+危急重症护理学：http://www.jdzkw.com/showzp.asp?id=669
