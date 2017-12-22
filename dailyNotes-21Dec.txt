@@ -5,7 +5,7 @@
 《护理管理学》 ：https://wenku.baidu.com/view/d1845a9632d4b14e852458fb770bf78a65293a01.html?mark_pay_doc=1&mark_rec_page=1&mark_rec_position=2&clear_uda_param=1
 危急重症护理学：http://www.jdzkw.com/showzp.asp?id=669
 
-一直困扰我的问题，图形界面上的如何调取我的代码？
+一直困扰我的问题，图形界面上的如何调取我的代码？  ---> java swing 应该不会去关注代码业务，它应该只负责展示。
 
 staleElementException:
 
@@ -23,3 +23,5 @@ public boolean retryingFindClick(By by) {
         }
         return result;
 }
+
+实现从AP输入的SSID与ST要用的是一致的。
