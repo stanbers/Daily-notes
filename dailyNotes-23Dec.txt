@@ -1,0 +1,11 @@
+问题：
+    1.swing 布局，如何布好？
+    2.添加进度条
+    3.把input框里的value传给程序，并修改配置文件
+
+    ssid:     wireless.1.ssid
+    netmask:  netconf.2.netmask
+              netconf.1.netmask
+              netconf.3.netmask
+    gateway:  route.1.gateway
+    IP:       netconf.3.ip
