@@ -9,3 +9,17 @@
               netconf.3.netmask
     gateway:  route.1.gateway
     IP:       netconf.3.ip
+
+    新问题：
+        1.更新多行时出问题
+        2.input框里的值没有得到。
+
+
+readme.md
+1.下载firefox浏览器；
+2.配置firefox profile：
+    windows+R ---> 输入firefox.exe -p --> 添加profile
+3.将UBNT_M2.cfg配置文件放到D盘下
+    D:\ConfigFile\M2_Config.cfg
+4.将geckodriver.exe 放到D盘下
+    D:\SeleniumGecko\geckodriver.exe
