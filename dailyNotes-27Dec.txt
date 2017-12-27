@@ -1,0 +1,10 @@
+《护理管理学》：
+http://m.92to.com/jujia/2017/09-30/29280105.html
+
+做一个全新的Java swing 界面出来，并且还有功能。
+    1.还是tab栏,并在每个tab下面add一个JPanel -->完成
+    2.创建table，将此table放入上面创建好的JPanel中。-->完成
+    3.在行首添加checkbox, 在行尾添加button, 在table底部添加新建按钮。
+    4.当选中某一行时，获得这行中每个cell里的value。
+    5.如何把checkbox放到行首。我觉得应该动态的去把每一列添加上去。
+
