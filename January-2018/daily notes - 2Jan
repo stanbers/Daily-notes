@@ -1,0 +1,5 @@
+commonFields.add(ssidInputBox.getText());
+commonFields.add(netMaskInputBox.getText());
+commonFields.add(gatewayIPInputBox.getText());
+commonFields.add(netMask_M5_InputBox.getText());
+commonFields.add(gatewayIP_M5_InputBox.getText());
