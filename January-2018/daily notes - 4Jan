@@ -4,3 +4,11 @@
 
     问题：
         为什么只取到了第一行呢？  --> 因为vector的位置放的不对，应该放到循环里
+
+        192.168.1.20
+        192.168.1.20
+
+        D:\系统\poi-3.17\lib\commons-logging-1.2.jar!\org\apache\commons\logging\LogFactory.class
+        D:\系统\poi-3.17\lib\commons-logging-1.2.jar!\org\apache\commons\logging\LogFactory.class
+
+        commons-logging-1.2
