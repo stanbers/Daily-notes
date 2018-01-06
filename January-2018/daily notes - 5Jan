@@ -25,3 +25,64 @@
         也要把common fileds 写到另一个commonFields.xlsx中，如果是点开项目直接进来，就读取commonFields.xlsx，把之前的common fileds 集合覆盖掉。
 
         String configExcelPath = "D:\\ConfigFile\\"+pName+".xlsx";
+
+
+        final List<Character> projectNumber_char = new ArrayList<Character>();
+        //number only input
+        projectNumInputBox.addKeyListener(new KeyListener() {
+            @Override
+            public void keyTyped(KeyEvent e) {
+                char vchar = e.getKeyChar();
+                if (!(Character.isDigit(vchar)) && (vchar != KeyEvent.VK_BACK_SPACE) && (vchar != KeyEvent.VK_DELETE)){
+                    JOptionPane.showMessageDialog(
+                            jFrame,
+                            "请输入数字 !",
+                            "项目编号",
+                            JOptionPane.INFORMATION_MESSAGE
+                    );
+                    e.consume();
+                }
+            }
+
+            @Override
+            public void keyPressed(KeyEvent e) {
+                char vchar = e.getKeyChar();
+                projectNumber_char.add(vchar);
+
+            }
+
+            @Override
+            public void keyReleased(KeyEvent e) {
+                String finalProjectNum = "";
+                for (int i = 0; i < projectNumber_char.size(); i++) {
+                    if(Character.isDigit(projectNumber_char.get(i))){
+                        finalProjectNum = finalProjectNum + projectNumber_char.get(i);
+                    }
+                    if (projectNumber_char.get(i).equals(KeyEvent.VK_BACK_SPACE)){
+                        projectNumber_char.remove(KeyEvent.VK_BACK_SPACE);
+                    }
+                }
+                if (finalProjectNum.equals("")){
+                    finalProjectNum = "1";
+                }
+                String dynamicIP = "10."+finalProjectNum+".2.1";
+                //TODO: need to validate the value > 255 or not,if < 255 ,then to setup the IP
+                int pNum = Integer.parseInt(finalProjectNum);
+                if (pNum > 255){
+                    String normalPNum = pNum + "";
+                    String finalPNum = normalPNum.substring(0,2);
+                    pNum = Integer.parseInt(finalPNum);
+                }
+                if (pNum <= 255){
+                    gatewayIPInputBox.setText(dynamicIP);
+                }else{
+                    JOptionPane.showMessageDialog(
+                            jFrame,
+                            "您输入的编号大于255，请输入小于255的数字 !",
+                            "项目编号",
+                            JOptionPane.INFORMATION_MESSAGE
+                    );
+                }
+
+            }
+        });
