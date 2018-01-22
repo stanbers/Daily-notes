@@ -3,7 +3,7 @@
 3. .git 是一个目录，如果没有这个目录，它所在的目录就不是一个git仓库
     touch 文件名 --> 表示创建一个文件。
     wq --> write quit
-4.  a) ~/.gitcofnig   --> 配置user.name 与user.email  --> git config --global
+4.  a) ~/.gitconfig   --> 配置user.name 与user.email  --> git config --global
     b) 对于特定项目： .git/config文件中
         即对不同的仓库，使用不同的user.name 与user.email  --> git config --local
 5. pwd可是输出当前所在的目录
@@ -19,3 +19,9 @@
 9. 如果在提交时，提交信息不小心写错了，想重新修改提交信息可以使用 git commit --amend -m "the correct message"
 10. git log -3 表示只查看最近的三条log
     git log --pretty=oneline
+11. command + K 是terminal 中清屏
+12. mkdir mydir && cd mydir 这样可以创建一个叫做mydir的目录并进入到该目录内
+    删除一个目录有两种方法：
+        1). rmdir mydir  ---> 这种只能删除空的目录
+        2). rm -rf mydir ---> 迭代删除所有目录
+13. cd - : 表示回到上层目录，当安装了oh my zsh后，直接一个‘-’就可以了，回到根目录就直接‘~’就可以了
